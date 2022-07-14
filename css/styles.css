@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+}
+.header-links {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+
+li {
+    list-style-type: none;
+    padding: 16px;
+}
+
+.header-icon {
+    display: flex;
+}
+
+.main-body, .footer{
+    background-color: #1F2937;
+    color: salmon;
+}
+
+.body-header {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
