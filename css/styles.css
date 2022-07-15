@@ -19,7 +19,7 @@ li {
     padding: 16px;
 }
 
-.main-body, .footer{
+.main-body-container, .footer, .header {
     background-color: #1F2937;
     color: salmon;
 }
@@ -27,5 +27,31 @@ li {
 .body-header {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.body-button {
+    padding: 8px;
+}
+
+.main-body-container {
+    display: flex;  
+    padding: 64px;
+
+}
+
+.main-body {
+    padding-right: 16px;
+}
+
+.image-container {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.image-container > * {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
 }
 
