@@ -145,6 +145,7 @@ li {
 .special-body {
     display: flex;
     padding: 5rem;
+    margin-inline: 10rem;
     justify-content: center;
 }
 
@@ -157,11 +158,34 @@ li {
     display: flex;
     flex: 1;
     background-color: #3882F6;
-    padding: 2rem;
+    padding: 3rem;
+    padding-inline: 6rem;
 }
 
 .button {
     display: flex;
     flex: 1;
     justify-content: right;
+}
+
+.button > * {
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding-inline: 2rem;
+}
+
+.action-body {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 2rem;
 }
