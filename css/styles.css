@@ -24,10 +24,6 @@ li {
     color: salmon;
 }
 
-.main-body {
-    
-}
-
 .body-header {
     font-size: 48px;
     color: #F9FAF8;
@@ -49,15 +45,22 @@ li {
 
 }
 
-
-
-.main-body {
-    padding-right: 16px;
-}
-
-.image-container {
+.main-body-container > * {
     display: flex;
     justify-content: center;
+
+
+
+}
+
+.main-body {   
+    flex-direction: column;
+    padding-right: 16px;
+
+}
+
+
+.image-container {
     flex-grow: 1;
     flex-shrink: 0;
 }
