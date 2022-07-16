@@ -142,3 +142,26 @@ li {
     font-weight: bold;
 }
 
+.special-body {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+
+.special-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-container {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 2rem;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
